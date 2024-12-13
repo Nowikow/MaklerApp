@@ -8,6 +8,7 @@
         android:id="@+id/titeltext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/poppins_semibold"
         android:text="@string/sale_buy_titel"
