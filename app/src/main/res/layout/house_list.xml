@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titeltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="35sp"
+        android:text="← Подать заявку" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="639dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/example1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="Квартира 100кв/м Коргалжын →" />
+
+            <TextView
+                android:id="@+id/example2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="Дом 200кв/м Нарикбаева →" />
+
+            <TextView
+                android:id="@+id/example3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="Квартира 45кв/м Бектурова →" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/kaz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/black"
+            android:text="Қазақша  |" />
+
+        <TextView
+            android:id="@+id/ru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/black"
+            android:text="Русский  |" />
+
+        <TextView
+            android:id="@+id/en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:textColor="@color/black"
+            android:text="English" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frame" />
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="362dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Оñai baspana" />
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="ИНН" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Пароль" />
+
+        <Switch
+            android:id="@+id/phoneswitcher"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="50dp"
+            android:trackTint="#B0B0B0"
+            android:text="ИИН/Телефон" />
+
+        <Button
+            android:id="@+id/enterbutton"
+            android:backgroundTint="@color/greenui"
+            android:layout_marginTop="5sp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Войти" />
+
+        <Button
+            android:id="@+id/egovbutton"
+            android:layout_marginTop="5sp"
+            android:backgroundTint="#111111"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/greenui"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Войти через egov" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/kaz"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:text="Қаз" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="48dp"
+                android:text="Рус" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:layout_height="48dp"
+                android:layout_marginLeft="10dp"
+                android:text="Eng" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

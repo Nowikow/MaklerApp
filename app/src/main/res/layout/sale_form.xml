@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titeltext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:textSize="35sp"
+        android:text="← Создание заявки" />
+
+    <TextView
+        android:id="@+id/qr_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:text="Отсканируйте данный QR код"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:id="@+id/qr"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/qrcode1" />
+
+    <TextView
+        android:id="@+id/code_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:text="Или воспользуйтесь данным номером"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="#B0B0B0"
+        android:text="8882123"
+        android:layout_marginTop="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="20dp"
+        android:gravity="center_horizontal|bottom"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kaz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="5dp"
+            android:text="Қазақша  |" />
+
+        <TextView
+            android:id="@+id/ru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="5dp"
+            android:text="Русский  |" />
+
+        <TextView
+            android:id="@+id/en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="5dp"
+            android:text="English" />
+    </LinearLayout>
+</LinearLayout>
