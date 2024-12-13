@@ -8,11 +8,12 @@
         android:id="@+id/titeltext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
-        android:textSize="35sp"
-        android:text="@string/house_list_titel" />
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/house_list_titel"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -29,31 +30,34 @@
                 android:id="@+id/example1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
-                android:textSize="20sp"
-                android:text="@string/house_list_example1" />
+                android:fontFamily="@font/poppins"
+                android:text="@string/house_list_example1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/example2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:textColor="@color/black"
                 android:layout_marginTop="30dp"
-                android:textSize="20sp"
-                android:text="@string/house_list_example2" />
+                android:fontFamily="@font/poppins"
+                android:text="@string/house_list_example2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/example3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/black"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
-                android:textSize="20sp"
-                android:text="@string/house_list_example3" />
+                android:fontFamily="@font/poppins"
+                android:text="@string/house_list_example3"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
         </LinearLayout>
     </ScrollView>
@@ -70,24 +74,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:textColor="@color/black"
-            android:text="Қазақша  |" />
+            android:fontFamily="@font/poppins"
+            android:text="Қазақша  |"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/ru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:textColor="@color/black"
-            android:text="Русский  |" />
+            android:fontFamily="@font/poppins"
+            android:text="Русский  |"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/en"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:textColor="@color/black"
-            android:text="English" />
+            android:fontFamily="@font/poppins"
+            android:text="English"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 </LinearLayout>

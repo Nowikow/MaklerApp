@@ -2,6 +2,6 @@
 <resources>
     <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Основной цвет фона приложения -->
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">#FFFFFF</item>
     </style>
 </resources>

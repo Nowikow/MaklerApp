@@ -11,20 +11,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:textColor="@color/black"
         android:layout_marginBottom="10dp"
-        android:textSize="35sp"
-        android:text="@string/sale_form_titel"/>
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/sale_form_titel"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/qr_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/sale_form_qr_help"
         android:textAlignment="center"
         android:textColor="#808080"
-        android:text="@string/sale_form_qr_help"
-        android:layout_marginTop="30dp" />
+        android:textSize="15sp" />
 
     <ImageView
         android:id="@+id/qr"
@@ -37,23 +39,25 @@
         android:id="@+id/code_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/sale_form_code_help"
         android:textAlignment="center"
         android:textColor="#808080"
-        android:text="@string/sale_form_code_help"
-        android:layout_marginTop="30dp" />
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/code"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textAlignment="center"
         android:layout_gravity="center"
-        android:textColor="#000000"
+        android:layout_marginTop="15dp"
         android:backgroundTint="#B0B0B0"
+        android:fontFamily="sans-serif"
         android:text="8882123"
-        android:layout_marginTop="15dp" />
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -67,24 +71,27 @@
             android:id="@+id/kz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:layout_marginHorizontal="5dp"
-            android:text="Қазақша  |" />
+            android:fontFamily="@font/poppins"
+            android:text="Қазақша  |"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/ru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:layout_marginHorizontal="5dp"
-            android:text="Русский  |" />
+            android:fontFamily="@font/poppins"
+            android:text="Русский  |"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/en"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
             android:layout_marginHorizontal="5dp"
-            android:text="English" />
+            android:fontFamily="@font/poppins"
+            android:text="English"
+            android:textColor="@color/black" />
     </LinearLayout>
 </LinearLayout>

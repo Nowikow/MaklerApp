@@ -8,30 +8,33 @@
         android:id="@+id/titeltext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
         android:layout_marginTop="20dp"
-        android:textSize="30sp"
-        android:text="@string/sale_buy_titel" />
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/sale_buy_titel"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="42dp"
         android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="42dp"
         android:backgroundTint="@color/greenui"
-        android:textSize="20sp"
-        android:text="@string/sale_buy_sale" />
+        android:fontFamily="@font/poppins"
+        android:text="@string/sale_buy_sale"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="10dp"
         android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
         android:backgroundTint="@color/greenui"
-        android:textSize="20sp"
-        android:text="@string/sale_buy_buy" />
+        android:fontFamily="@font/poppins"
+        android:text="@string/sale_buy_buy"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,23 +49,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:textColor="@color/black"
-            android:text="Қазақша  |" />
+            android:fontFamily="@font/poppins"
+            android:text="Қазақша  |"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/ru"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:textColor="@color/black"
-            android:text="Русский  |" />
+            android:fontFamily="@font/poppins"
+            android:text="Русский  |"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/en"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"
-            android:textColor="@color/black"
-            android:text="English" />
+            android:fontFamily="@font/poppins"
+            android:text="English"
+            android:textColor="@color/black" />
     </LinearLayout>
 </LinearLayout>
