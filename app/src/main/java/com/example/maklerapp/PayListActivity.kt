@@ -15,11 +15,11 @@ class PayListActivity: AppCompatActivity() {
 
         val payAmmount: TextView = findViewById(R.id.payammounttext)
         if (code == "5436987") {
-            payAmmount.text = "К оплате: 55.400.000 KZ"
+            payAmmount.text = "25.000 KZ"
         } else if (code == "7654123") {
-            payAmmount.text = "К оплате: 41.490.000 KZ"
+            payAmmount.text = "32.0000 KZ"
         } else {
-            payAmmount.text = "К оплате: 35.690.000 KZ"
+            payAmmount.text = "15.000 KZ"
         }
 
         val backButton: Button = findViewById(R.id.back_button)

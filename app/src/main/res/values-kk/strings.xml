@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Onai baspana</string>
+    <string name="acivity_main_titel">Оñai baspana</string>
+    <string name="activity_main_inn">ЖКН</string>
+    <string name="activity_main_pass">Құпиясөз</string>
+    <string name="activity_main_switcher">ЖКН/Телефон</string>
+    <string name="activity_main_enter_button">Кіру</string>
+    <string name="activity_main_egov_button">Egov kipy</string>
+    <string name="sale_buy_titel">← Өтінім беру</string>
+    <string name="sale_buy_sale">Сату</string>
+    <string name="sale_buy_buy">Сатып алу</string>
+    <string name="sale_form_titel">← Өтінім жасау</string>
+    <string name="sale_form_qr_help">Берілген QR кодты сканерлеңіз</string>
+    <string name="sale_form_code_help">Немесе осы нөмірді пайдаланыңыз</string>
+    <string name="buy_form_titel">← Өтінімді іздеу</string>
+    <string name="buy_form_qr_scan">QR кодты сканерлеңіз</string>
+    <string name="buy_form_code">Немесе осы нөмірді пайдаланыңыз</string>
+    <string name="buy_from_code_hint">Код</string>
+    <string name="buy_form_code_button">Енгiзу</string>
+    <string name="house_list_titel">← Өтінімді таңдау</string>
+    <string name="house_list_example1">Квартира 100кв/м 100 ш.м пәтер Қорғалжын →</string>
+    <string name="house_list_example2">200 ш.м үй Нәрікбаева →</string>
+    <string name="house_list_example3">45 ш.м пәтер Бектұрова. →</string>
+    <string name="pay_list_titel_form">Төлем</string>
+    <string name="pay_list_titel">Төлем әдісі</string>
+    <string name="pay_list_card_number">Карта нөмірі</string>
+    <string name="pay_list_card_date">ММ/ГГ</string>
+    <string name="pay_list_pay_1">Төлем сомасы: 55.400.000 KZ</string>
+    <string name="pay_list_pay_2">Төлем сомасы: 41.490.000 KZ</string>
+    <string name="pay_list_pay_3">Төлем сомасы: 35.690.000 KZ</string>
+    <string name="pay_list_cancel">Бас тарту</string>
+</resources>

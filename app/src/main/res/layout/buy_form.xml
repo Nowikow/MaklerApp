@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".BuyActivity">
+    tools:context=".BuyFormActivity">
 
     <TextView
         android:id="@+id/titeltext"
@@ -15,7 +15,7 @@
         android:layout_marginBottom="10dp"
         android:textColor="@color/black"
         android:textSize="35sp"
-        android:text="← Поиск заявки"/>
+        android:text="@string/buy_form_titel"/>
 
     <TextView
         android:id="@+id/qr_text"
@@ -24,7 +24,7 @@
         android:textSize="15sp"
         android:textAlignment="center"
         android:textColor="#808080"
-        android:text="Сканируйте QR код"
+        android:text="@string/buy_form_qr_scan"
         android:layout_marginTop="30dp"/>
 
     <ImageView
@@ -41,7 +41,7 @@
         android:textSize="15sp"
         android:textAlignment="center"
         android:textColor="#808080"
-        android:text="Или воспользуйтесь данным номером"
+        android:text="@string/buy_form_code"
         android:layout_marginTop="30dp" />
 
     <EditText
@@ -55,7 +55,7 @@
         android:inputType="number"
         android:textSize="30sp"
         android:textColor="@color/black"
-        android:hint="Код" />
+        android:hint="@string/buy_from_code_hint" />
 
     <Button
         android:id="@+id/codebutton"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/greenui"
         android:layout_marginHorizontal="50dp"
-        android:text="Ввести" />
+        android:text="@string/buy_form_code_button" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,7 +75,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/kaz"
+            android:id="@+id/kz"
             android:layout_width="wrap_content"
             android:textColor="@color/black"
             android:layout_height="wrap_content"

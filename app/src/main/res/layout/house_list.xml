@@ -12,7 +12,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:textSize="35sp"
-        android:text="← Подать заявку" />
+        android:text="@string/house_list_titel" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
                 android:textSize="20sp"
-                android:text="Квартира 100кв/м Коргалжын →" />
+                android:text="@string/house_list_example1" />
 
             <TextView
                 android:id="@+id/example2"
@@ -43,7 +43,7 @@
                 android:textColor="@color/black"
                 android:layout_marginTop="30dp"
                 android:textSize="20sp"
-                android:text="Дом 200кв/м Нарикбаева →" />
+                android:text="@string/house_list_example2" />
 
             <TextView
                 android:id="@+id/example3"
@@ -53,7 +53,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
                 android:textSize="20sp"
-                android:text="Квартира 45кв/м Бектурова →" />
+                android:text="@string/house_list_example3" />
 
         </LinearLayout>
     </ScrollView>
@@ -66,7 +66,7 @@
         android:gravity="center_horizontal">
 
         <TextView
-            android:id="@+id/kaz"
+            android:id="@+id/kz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"

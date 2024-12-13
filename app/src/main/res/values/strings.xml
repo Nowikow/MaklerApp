@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">MaklerApp</string>
+    <string name="app_name">Onai baspana</string>
+    <string name="acivity_main_titel">Оñai baspana</string>
+    <string name="activity_main_inn">TIN</string>
+    <string name="activity_main_pass">Password</string>
+    <string name="activity_main_switcher">TIN/Phone</string>
+    <string name="activity_main_enter_button">Login</string>
+    <string name="activity_main_egov_button">Egov login</string>
+    <string name="sale_buy_titel">← Submit an application</string>
+    <string name="sale_buy_sale">Sale</string>
+    <string name="sale_buy_buy">Buy</string>
+    <string name="sale_form_titel">← Make an aplication</string>
+    <string name="sale_form_qr_help">Scan the QR below</string>
+    <string name="sale_form_code_help">Or use the code below</string>
+    <string name="buy_form_titel">← Application search</string>
+    <string name="buy_form_qr_scan">Scan the QR code below</string>
+    <string name="buy_form_code">Or use this number</string>
+    <string name="buy_from_code_hint">Code</string>
+    <string name="buy_form_code_button">Enter</string>
+    <string name="house_list_titel">← Select Application</string>
+    <string name="house_list_example1">Apartment 100sqm Korgalzhyn →</string>
+    <string name="house_list_example2">House 200sq/m Narikbaeva →</string>
+    <string name="house_list_example3">Apartment 45sq/m Bekturova →</string>
+    <string name="pay_list_titel_form">Payment</string>
+    <string name="pay_list_titel">Payment method</string>
+    <string name="pay_list_card_number">Card number</string>
+    <string name="pay_list_card_date">MM/YY</string>
+    <string name="pay_list_pay_1">Payment amount: 55.400.000 KZ</string>
+    <string name="pay_list_pay_2">Payment amount: 41.490.000 KZ</string>
+    <string name="pay_list_pay_3">Payment amount: 35.690.000 KZ</string>
+    <string name="pay_list_cancel">Cancel</string>
 </resources>
